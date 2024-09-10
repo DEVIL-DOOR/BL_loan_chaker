@@ -61,29 +61,12 @@ ascii = r'''
  '''
 
 
-
-
-banner = r"""
-""".replace('▓', '▀')
-
-
-banner = Add.Add(ascii, banner, center=True)
-
- 
-
- 
-print(Colorate.Horizontal(Colors.red_to_blue, banner))
-#//Gui End//#
-# CODED BY - SHUVO 
-# API - BL LOAN CHEACK
-# JOIN - t.me/DARK_TEAM_LMNx9
-
 import requests,os,sys,json,rich,time
 from rich import print_json as jx
 
 def LMNxBLLN():
     os.system("clear");print(45*'-')
-    print("<\\> BL Loan Cheak MR.professor");print(45*'-')
+    print("<\\> BL Loan Cheak | professor | v1.0");print(45*'-')
     num = input("<\\> BL NUMBER : ");print(45*'-')
     headers = {
         'Accept': '*/*',
@@ -109,7 +92,7 @@ def LMNxBLLN():
             'status_code': LMNx9['status_code'],
             'message': LMNx9['message'],
             'data': LMNx9['data'],
-            'Author': 'Limon_Hossain'}
+            'Author': 'Mr.professor'}
     except Exception as x:
         print("<\\> Invalid Number..! Try Again ")
         time.sleep(2);LMNxBLLN()
